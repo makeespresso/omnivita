@@ -7,5 +7,3 @@ Informative purposes website.
 
 Created by Makeespresso, 2019.
 
-
-
