@@ -85,25 +85,42 @@ li{
 
 .content{
   display: flex;
-  width: 90vh;
+  width: 90vw;
+  height: 95vh;
+  text-align:center;
+  background-color: lightsalmon;
+  justify-content: center;
 }
 
 .content-image{
 background-color: aquamarine;
+width: 33.3%;
+height: 537px;
 }
 
 .content-text{
-background-color: coral;
+background-color: peru;
+width: 33.3%;
+height: 537px;
+
 }
 
 .content-text{
   text-align: center;
   padding: 5px;
-margin: 0 auto;
+  margin: 0 auto;
 }
 
-
-
+/* PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO */
+.products-info{
+  background: rgba(204, 181, 181, 100);
+}
+.fourth-width{
+  background: whitesmoke;
+}
+.products-image{
+  height: 235px;
+}
 
 
 
