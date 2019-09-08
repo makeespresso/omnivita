@@ -1,9 +1,9 @@
 
 import React from 'react';
-import Location from './location.png';
-import JardinLogo from './jardinLogo.png';
-import PhoneIcon from './phone.png';
-import Envelope from './envelope.png';
+import Location from '../assets/img/location.png';
+import JardinLogo from '../assets/img/jardinLogo.png';
+import PhoneIcon from '../assets/img/phone.png';
+import Envelope from '../assets/img/envelope.png';
 
 export default function contacto() {
   return (

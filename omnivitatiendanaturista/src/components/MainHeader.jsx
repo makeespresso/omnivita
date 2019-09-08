@@ -1,5 +1,5 @@
 import React from 'react'
-import Heroimage from './hero-img-omnivita.png';
+import Heroimage from '../assets/img/hero-img-omnivita.png';
 
 export default function MainHeader() {
   return (

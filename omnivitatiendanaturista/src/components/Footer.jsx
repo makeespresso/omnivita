@@ -1,7 +1,7 @@
 import React from 'react';
-import FacebookLogo from './facebookLogo.png';
-import InstagramLogo from './instagramLogo.png';
-import ShoppingCart from './shoppingCartLogo.png';
+import FacebookLogo from '../assets/img/facebookLogo.png';
+import InstagramLogo from '../assets/img/instagramLogo.png';
+import ShoppingCart from '../assets/img/shoppingCartLogo.png';
 
 export default function Footer() {
   return (
