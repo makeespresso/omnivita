@@ -1,7 +1,7 @@
 import React from 'react'
 import Proteins from './proteins.png';
 import NaturalProducts from './naturalProducts.png';
-import Vitamins from './vitamins.png';
+import Vitamins from './vitamins-image.jpeg';
 import SkinCare from './skinCare.png';
 
 export default function ProductsInfo() {
