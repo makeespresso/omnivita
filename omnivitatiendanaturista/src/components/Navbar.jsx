@@ -9,7 +9,7 @@ export default function Navbar() {
     <div className="nav-container">
       <div className="first-width">
         <ul>
-          <li><a id="about" href="#content">Sobre Nosotros</a></li>
+          <li><a id="about" href="#content">Sobre Nosotros</a></li>
           <li><a id="contact" href="#contact-section">Contacto</a></li>
         </ul>
       </div>
@@ -20,9 +20,9 @@ export default function Navbar() {
 
       <div className="second-width">
         <ul>
-          <li><img src={facebook} className="social-icons" alt="Facebook Page" /></li>
-          <li><img src={instagram} className="social-icons" alt="Instagram Page" /></li>
-          <li><img src={cart} className="social-icons" alt="Shopping Cart" /></li>
+          <li><img src={facebook} className="social-icons" alt="Facebook Page" /></li>
+          <li><img src={instagram} className="social-icons" alt="Instagram Page" /></li>
+          <li><img src={cart} className="social-icons" alt="Shopping Cart" /></li>
         </ul>
       </div>
 
