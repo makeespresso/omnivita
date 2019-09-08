@@ -1,0 +1,166 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* NAVBAR - NAVBAR - NAVBAR - NAVBAR - NAVBAR */
+.nav-container{
+  background: purple;
+  display: flex;
+  height: 50px;
+  width: 90vw;
+  position: fixed;
+  align-items: center;
+}
+
+li{
+  list-style: none;
+}
+
+.first-width{
+  background: yellow;
+  display: inline;
+  margin: 0;
+  width: 33.3%;
+  height: 50px;
+}
+.first-width ul {
+  display: flex;
+  justify-content: space-around;
+  padding-right: 33px;
+}
+.logo{
+  justify-items: center;
+  width: 33.3%;
+  height: 50px;
+
+}
+
+.second-width{
+  background: brown;
+  display: inline;
+  margin: 0;
+  width: 33.3%; 
+  height: 50px;
+
+}
+
+.second-width ul{
+  display: flex;
+}
+
+.social-icons{
+  width: 25px;
+  height: 25px;
+  padding-right: 10px;
+}
+
+
+/* MAINHEADER - MAINHEADER - MAINHEADER - MAINHEADER - MAINHEADER - */
+.main-container{
+  background: red;
+}
+.hero-image-container{
+  width: 90vw;
+  height: 600px;
+  background:blue;
+}
+.hero-image{
+}
+
+.banner{
+  width: 90vw;
+  height: 25vh;
+  background-color: rgba(6, 96, 58, 100)
+}
+
+.banner p {
+  color: white;
+  text-align: center;
+}
+
+/*CONTENT - CONTENT - CONTENT - CONTENT - CONTENT - CONTENT - */
+
+.content{
+  display: flex;
+  width: 90vw;
+  height: 95vh;
+  text-align:center;
+  background-color: lightsalmon;
+  justify-content: center;
+}
+
+.content-image{
+background-color: aquamarine;
+width: 33.3%;
+height: 537px;
+}
+
+.content-text{
+background-color: peru;
+width: 33.3%;
+height: 537px;
+
+}
+
+.content-text{
+  text-align: center;
+  padding: 5px;
+  margin: 0 auto;
+}
+
+/* PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO */
+.products-info{
+  background: rgba(237, 235, 235, 100);
+  display: flex;
+  justify-content: space-around;
+  height: 82.4vh;
+}
+.fourth-width{
+  background: whitesmoke;
+  height: 455px;
+  width: 300px;
+}
+.products-image{
+  height: 400px;
+  width: 300px;
+}
+
+.fourth-width p {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
