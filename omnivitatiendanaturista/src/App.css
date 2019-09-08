@@ -113,15 +113,24 @@ height: 537px;
 
 /* PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO */
 .products-info{
-  background: rgba(204, 181, 181, 100);
+  background: rgba(237, 235, 235, 100);
+  display: flex;
+  justify-content: space-around;
+  height: 82.4vh;
 }
 .fourth-width{
   background: whitesmoke;
+  height: 455px;
+  width: 300px;
 }
 .products-image{
-  height: 235px;
+  height: 400px;
+  width: 300px;
 }
 
+.fourth-width p {
+  text-align: center;
+}
 
 
 
