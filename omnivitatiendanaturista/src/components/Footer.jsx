@@ -9,7 +9,7 @@ export default function Footer() {
       <ul>
         <li><img src={FacebookLogo} alt="Facebook" /></li>
         <li><img src={InstagramLogo} alt="Instagram" /></li>
-        <li><img src={ShoppingCart} alt="Mercado Libre" /></li>
+        <li><img src={ShoppingCart} alt="Mercado Libre" /></li>
       </ul>
     </div>
   )
