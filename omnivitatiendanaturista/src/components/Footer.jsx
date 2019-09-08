@@ -6,11 +6,9 @@ import ShoppingCart from '../assets/img/shoppingCartLogo.png';
 export default function Footer() {
   return (
     <div className="Footer">
-      <ul>
-        <li><img src={FacebookLogo} alt="Facebook" /></li>
-        <li><img src={InstagramLogo} alt="Instagram" /></li>
-        <li><img src={ShoppingCart} alt="Mercado Libre" /></li>
-      </ul>
+      <img className="footer-icons" src={FacebookLogo} alt="Facebook" />
+      <img className="footer-icons" src={InstagramLogo} alt="Instagram" />
+      <img className="footer-icons" src={ShoppingCart} alt="Mercado Libre" />
     </div>
   )
 }

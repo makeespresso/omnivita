@@ -10,7 +10,7 @@ export default function contacto() {
     <div className="contact-section">
       <div className="third-width">
         <h1>Contacto</h1>
-        <img src={Location} alt="Mapa" />
+        <img className="location-map"src={Location} alt="Mapa" />
       </div>
 
       <div className="third-width">
