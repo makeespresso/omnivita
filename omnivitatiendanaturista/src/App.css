@@ -92,30 +92,36 @@ li{
 /*CONTENT - CONTENT - CONTENT - CONTENT - CONTENT - CONTENT - */
 
 .content{
-  display: flex;
+  display: inline-flex;
   width: 90vw;
-  height: 95vh;
+  height: 70vh;
   text-align:center;
-  background-color: black;
-  justify-content: center;
+justify-content: baseline;
 }
 
-.content-image{
-background-color: aquamarine;
+.content-image, .content-text{
+margin: auto;
 width: 33.3%;
-height: 537px;
+height: 65vh;
+text-align: center;
+padding: 5px;
+margin: 0 auto;
 }
-
 .content-text{
-background-color: peru;
-width: 33.3%;
-height: 537px;
-}
-
-.content-text{
+  display: inline-block;
+  align-items: center;
+  margin: 0 auto;
   text-align: center;
   padding: 5px;
-  margin: 0 auto;
+}
+
+.content-text p{
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  margin: 50px;
+}
+.exercising-picture{
+  height: 100%;
 }
 
 /* PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO */
