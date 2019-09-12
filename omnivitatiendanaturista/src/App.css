@@ -92,29 +92,37 @@ li{
 /*CONTENT - CONTENT - CONTENT - CONTENT - CONTENT - CONTENT - */
 
 .content{
-  display: inline-flex;
+  /* display: inline-flex;
   width: 90vw;
   height: 70vh;
   text-align:center;
-  /* justify-content: baseline;*/
   justify-content: space-between;
-
+   */
+  background-color: darksalmon;
+  width: 90vh;
+  height: 100vh;
+grid: 2;
 }
 
+
 .content-image, .content-text{
-margin: auto;
+/* margin: auto;
 width: 33.3%;
 height: 65vh;
 text-align: center;
 padding: 5px;
-margin: 0 auto;
+margin: 0 auto;*/
+
+background: orchid; 
 }
 .content-text{
-  display: inline-block;
+  /* display: inline-block;
   align-items: center;
   margin: 0 auto;
   text-align: center;
-  padding: 5px;
+  padding: 5px; */
+
+  background: olive
 }
 
 .content-text p{
