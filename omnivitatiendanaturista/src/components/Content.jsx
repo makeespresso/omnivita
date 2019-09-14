@@ -1,11 +1,12 @@
 import React from 'react';
 import contentImage from '../assets/img/content-image.png';
+import exercisingImage from '../assets/img/yoga.jpeg';
 
 export default function Content() {
   return (
     <div className="content">
       <div className="content-image">
-        <img className="exercising-picture" src={contentImage} alt="Exercising" />
+        <img className="exercising-picture" src={exercisingImage} alt="Exercising" />
       </div>
       <div className="content-text">
         <p>OmniVita es una tienda naturista dedicada a la venta al por menor de productos de la  salud, nutrición y belleza. Incluyendo vitaminas, suplementos minerales, hierbas, nutrición deportiva, de dieta,  productos energéticos y de belleza.</p>

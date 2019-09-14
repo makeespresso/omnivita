@@ -3,6 +3,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
 }
 
 /* NAVBAR - NAVBAR - NAVBAR - NAVBAR - NAVBAR */
@@ -101,36 +103,36 @@ li{
 }
 
 
-.content-image, .content-text{
-/* margin: auto;
-width: 33.3%;
-height: 65vh;
-text-align: center;
-padding: 5px;
-margin: 0 auto;*/
+.content-image{
 background: orchid; 
 width: 35%;
 height: 75%;
 margin: 40px;
 padding: 80px;
+
 }
 .content-text{
   background: gold;
+  justify-content: center;
+  display: block;
   width: 35%;
   height: 75%;
   margin: 40px;
   margin-left: 0px;
   padding: 80px
-
 }
 
 .content-text p{
-  font-family: 'Playfair Display', serif;
-  font-weight: 500;
-
+text-align: center;
+font-size: 1rem;
+line-height: 2;
+margin-left: auto;
+margin-right: auto;
+width: 25vw;
 }
 .exercising-picture{
-
+  width: 100%;
+  height: 100%;
 }
 
 /* PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO */
