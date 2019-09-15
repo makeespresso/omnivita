@@ -89,12 +89,12 @@ li{
   text-align: center;
   padding: 5px;
   margin: 0 auto;
+  font-size:1.5rem;
 }
 
 /*CONTENT - CONTENT - CONTENT - CONTENT - CONTENT - CONTENT - */
 
 .content{
-  background-color: darksalmon;
   width: 90vw;
   height: 100vh;
   display: inline-flex;
@@ -102,24 +102,15 @@ li{
   align-items: center;
 }
 
-
 .content-image{
-background: orchid; 
 width: 35%;
-height: 75%;
-margin: 40px;
-padding: 80px;
-
+height: 85%;
 }
 .content-text{
-  background: gold;
   justify-content: center;
   display: block;
   width: 35%;
-  height: 75%;
-  margin: 40px;
-  margin-left: 0px;
-  padding: 80px
+  height: 55%;
 }
 
 .content-text p{
