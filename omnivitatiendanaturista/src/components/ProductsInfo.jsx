@@ -25,6 +25,7 @@ export default function ProductsInfo() {
       <div className="fourth-width">
         <img className="products-image" src={SkinCare} alt="Cuidado de la Piel" />
         <p>Cuidado de la Piel</p>
+
       </div>
     </div>
   )
