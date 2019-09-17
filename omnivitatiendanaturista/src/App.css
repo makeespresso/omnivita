@@ -94,7 +94,7 @@ li{
 
 /*CONTENT - CONTENT - CONTENT - CONTENT - CONTENT - CONTENT - */
 
-.content{
+/* .content{
   width: 90vw;
   height: 100vh;
   display: inline-flex;
@@ -124,7 +124,45 @@ width: 25vw;
 .exercising-picture{
   width: 100%;
   height: 100%;
+} */
+
+.content{
+  /* width: 90vw;
+  height: 100vh;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center; */
+  /* margin: 2rem; */
+  background-color: red;
+  width: 90vw;
+  height: 95vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 10px 10px; 
 }
+
+.cell {
+  color: white;
+  line-height: 2;
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+.cell-1 {
+  background: deepskyblue;
+}
+.cell-2 {
+  background: orangered;
+}
+.cell-3 {
+  background: royalblue;
+}
+.cell-4 {
+  background: gold;
+}
+
 
 /* PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO */
 .products-info{
