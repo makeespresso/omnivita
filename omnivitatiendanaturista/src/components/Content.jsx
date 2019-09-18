@@ -16,7 +16,9 @@ export default function Content() {
         <p>Nos esmeramos por ofrecer productos legítimos al mejor precio para el cuidado de la salud y la belleza.</p>
       </div> */}
       <div class="cell cell-1">
-        <img className="products-image" src={leavesPills} alt="Products" />
+        <div className="content-image">
+          {/* <img className="content-image" src={leavesPills} alt="Products" /> */}
+        </div>
       </div>
 
       <div class="cell cell-2">
@@ -24,15 +26,17 @@ export default function Content() {
       </div>
 
       <div class="cell cell-3">
-        <p>Nuestros  productos son de alta calidad al alcance de la comunidad.</p>
-        <p>Nos esmeramos por ofrecer productos legítimos al mejor precio para el cuidado de la salud y la belleza.</p>
+        <p>Nuestros  productos son de alta calidad al alcance de la comunidad.<br /><br />
+          Nos esmeramos por ofrecer productos legítimos al mejor precio para el cuidado de la salud y la belleza.</p>
       </div>
 
       <div class="cell cell-4">
-        <img className="products-image" src={productsImage} alt="Products" />
+        <div className="content-image">
 
+          {/* <img className="content-image" src={productsImage} alt="Products" /> */}
+        </div>
       </div>
 
-    </div>
+    </div >
   )
 }

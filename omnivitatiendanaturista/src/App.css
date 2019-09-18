@@ -126,23 +126,23 @@ width: 25vw;
   height: 100%;
 } */
 
-.content{
-  /* width: 90vw;
-  height: 100vh;
-  display: inline-flex;
-  justify-content: space-around;
-  align-items: center; */
-  /* margin: 2rem; */
-  background-color: red;
+.content{ 
+  background-color: beige;
   width: 90vw;
   height: 95vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-gap: 10px 10px; 
+  align-content: center;
 }
-
-.cell {
+.cell{
+  background-color: lightseagreen;
+  margin: auto;
+  height: 46vh;
+  width: 35vw;
+}
+.cell p {
   color: white;
   line-height: 2;
   font-size: 1.3rem;
@@ -150,17 +150,24 @@ width: 25vw;
   padding: 2rem;
 }
 
+.content-image{ 
+  height: 40vh;
+  width: 30vw;
+  background: pink;
+  object-fit: fill;
+}
+
 .cell-1 {
-  background: deepskyblue;
+
 }
 .cell-2 {
-  background: orangered;
+
 }
 .cell-3 {
-  background: royalblue;
+
 }
 .cell-4 {
-  background: gold;
+
 }
 
 
@@ -187,6 +194,10 @@ width: 25vw;
 
 .fourth-width p {
   text-align: center;
+}
+
+.content-image{
+  object-fit: fill;
 }
 
 /* CONTACT - CONTACT - CONTACT - CONTACT - CONTACT - CONTACT */
