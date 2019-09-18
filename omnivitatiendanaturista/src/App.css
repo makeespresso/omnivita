@@ -134,13 +134,14 @@ width: 25vw;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-gap: 10px 10px; 
-  align-content: center;
+  justify-content: center;
 }
 .cell{
-  background-color: lightseagreen;
+  background-color: gray;
   margin: auto;
   height: 46vh;
   width: 35vw;
+justify-content: center;
 }
 .cell p {
   color: white;
@@ -151,10 +152,11 @@ width: 25vw;
 }
 
 .content-image{ 
-  height: 40vh;
-  width: 30vw;
-  background: pink;
+  height: 100%;
+  width: 100%;
   object-fit: fill;
+  margin: auto;
+  
 }
 
 .cell-1 {
