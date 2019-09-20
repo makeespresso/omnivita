@@ -128,7 +128,7 @@ width: 25vw;
 
 .content{ 
   width: 90vw;
-  height: 95vh;
+  height: 100vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;

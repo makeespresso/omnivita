@@ -16,7 +16,7 @@ export default function Content() {
         <p>Nos esmeramos por ofrecer productos legítimos al mejor precio para el cuidado de la salud y la belleza.</p>
       </div> */}
       <div class="cell cell-1">
-        <p><span>OmniVita Tienda Naturista</span> <br></br><br></br>dedicada a la venta al por menor de productos de la  salud, nutrición y belleza. Incluyendo vitaminas, suplementos minerales, hierbas, nutrición deportiva, de dieta,  productos energéticos y de belleza.</p>
+        <p><span>OmniVita Tienda Naturista</span> <br></br><br></br>Dedicada a la venta al por menor de productos de la salud, nutrición y belleza. Incluyendo vitaminas, suplementos minerales, hierbas, nutrición deportiva, dietéticos, productos energéticos y de belleza.</p>
       </div>
 
       <div class="cell cell-2">
