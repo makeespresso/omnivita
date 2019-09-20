@@ -127,7 +127,6 @@ width: 25vw;
 } */
 
 .content{ 
-  background-color: beige;
   width: 90vw;
   height: 95vh;
   display: grid;
@@ -137,15 +136,14 @@ width: 25vw;
   justify-content: center;
 }
 .cell{
-  background-color: gray;
   margin: auto;
   height: 46vh;
   width: 35vw;
   /* justify-content: center; */
 }
 .cell p {
-  color: white;
-  line-height: 2;
+  color: #000000;
+  /* line-height: 2; */
   font-size: 1.3rem;
   text-align: center;
   padding: 2rem;
@@ -155,6 +153,7 @@ width: 25vw;
   height: 100%;
   width: 100%;
   object-fit: fill;
+  margin-top: 5%;
   /* margin: auto; */
   
 }
@@ -170,8 +169,14 @@ width: 25vw;
 }
 .cell-4 {
   margin-left: 1%;
+  margin-top: 10%;
 }
 
+.cell-1 span{
+  color: rgba(6, 96, 58, 100);
+  /* font-weight: 800; */
+  font-size: 3rem;
+}
 
 /* PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO */
 .products-info{
