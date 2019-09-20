@@ -2,7 +2,7 @@ import React from 'react';
 import contentImage from '../assets/img/content-image.png';
 import exercisingImage from '../assets/img/yoga.jpeg';
 import productsImage from '../assets/img/productsImage.jpeg';
-import leavesPills from '../assets/img/hero-img-omnivita.png'
+import vitaminPills from '../assets/img/vitamin-pills.jpeg'
 
 export default function Content() {
   return (
@@ -17,7 +17,7 @@ export default function Content() {
       </div> */}
       <div class="cell cell-1">
         <div className="content-image">
-          {/* <img className="content-image" src={leavesPills} alt="Products" /> */}
+          <img className="content-image" src={vitaminPills} alt="Products" />
         </div>
       </div>
 
@@ -33,7 +33,7 @@ export default function Content() {
       <div class="cell cell-4">
         <div className="content-image">
 
-          {/* <img className="content-image" src={productsImage} alt="Products" /> */}
+          <img className="content-image" src={productsImage} alt="Products" />
         </div>
       </div>
 
