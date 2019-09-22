@@ -4,7 +4,6 @@
   align-items: center;
   justify-content: center;
   font-family: 'Playfair Display', serif;
-  /* font-weight: 500; */
 }
 
 /* NAVBAR - NAVBAR - NAVBAR - NAVBAR - NAVBAR */
@@ -229,7 +228,7 @@ background: #ffffff;
 
 /* CONTACT - CONTACT - CONTACT - CONTACT - CONTACT - CONTACT */
 .contact-section{
-  background: gray;
+  background:black;
   height: 600px;
   width: 90vw;
   
@@ -256,6 +255,15 @@ width: 25vw;
 height: 60vh;
 text-align: center;
 }
+
+.contact-helper{
+  background-color: red;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+}
+
+
 
 /* FOOTER - FOOTER - FOOTER - FOOTER - FOOTER - FOOTER - */
 .footer{
