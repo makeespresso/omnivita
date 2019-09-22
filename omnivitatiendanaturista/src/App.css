@@ -189,6 +189,11 @@ width: 25vw;
 }
 
 /* PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO */
+/* .productsInfoPage{
+  height: 82vh;
+  width: 90vw;
+  background: #000000;
+} */
 .products-info{
   background: rgba(237, 235, 235, 100);
   height: 75vh;
@@ -198,6 +203,7 @@ width: 25vw;
   text-align:center;
   margin: 0 auto;
   align-content: center;  
+  margin-bottom: 3em;
 }
 
 .fourth-width{
@@ -243,7 +249,7 @@ text-align: center;
 }
 
 /* FOOTER - FOOTER - FOOTER - FOOTER - FOOTER - FOOTER - */
-.Footer{
+.footer{
   background: rgba(6, 96, 58, 100);
   height: 10vh;
   width: 90vw;
