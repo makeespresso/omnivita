@@ -14,7 +14,7 @@ export default function Navbar() {
         </ul>
       </div>
 
-      <div className="logo">
+      <div className="helper-wrap">
         <img className="logoicon" src={logo} alt="Logo" />
       </div>
 
