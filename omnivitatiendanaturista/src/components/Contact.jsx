@@ -12,7 +12,7 @@ export default function contacto() {
 
       <div className="content-wrapper">
         <div className="third-width">
-          <img className="location-map" src={Location} alt="Mapa" />
+          <a target="_blank" href="https://goo.gl/maps/74sJQPLX74Q2a3Ng8"><img className="location-map" src={Location} alt="Mapa" /></a>
         </div>
 
         <div className="third-width">
