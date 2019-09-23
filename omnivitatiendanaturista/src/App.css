@@ -228,15 +228,13 @@ background: #ffffff;
 
 /* CONTACT - CONTACT - CONTACT - CONTACT - CONTACT - CONTACT */
 .contact{
-background: gray;
-height: 67vh;
+height: 70vh;
 width: 90vw;
 }
 .contact h1{
 text-align: center;
 }
 .content-wrapper{
-  background: yellow;
   height: 60vh;
   width:100%;
   display: flex;
@@ -253,7 +251,6 @@ text-align: center;
 
 .third-width{
 margin-right: 5px;
-background: rosybrown;
 width: 25vw;
 height: 45vh;
 }

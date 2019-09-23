@@ -20,9 +20,9 @@ export default function Navbar() {
 
       <div className="second-width">
         <ul>
-          <li><img src={facebook} className="social-icons" alt="Facebook Page" /></li>
-          <li><img src={instagram} className="social-icons" alt="Instagram Page" /></li>
-          <li><img src={cart} className="social-icons" alt="Shopping Cart" /></li>
+          <li>< a target="_blank" href="https://www.facebook.com/tiendanaturistaomnivita/"><img src={facebook} className="social-icons" alt="Facebook Page" /></a></li>
+          <li>< a target="_blank" href="https://www.instagram.com/tiendanaturistaomnivita/"><img src={instagram} className="social-icons" alt="Instagram Page" /></a></li>
+          <li><a target="_blank" href="https://tiendanaturista-omnivita.mercadoshops.com.co/"><img src={cart} className="social-icons" alt="Shopping Cart" /></a></li>
         </ul>
       </div>
 
