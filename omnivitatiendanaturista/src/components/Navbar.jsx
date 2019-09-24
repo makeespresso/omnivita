@@ -13,11 +13,9 @@ export default function Navbar() {
           <li><a href="#contacto">Contacto</a></li>
         </ul>
       </div>
-
       <div className="helper-wrap">
         <a href="#home"><img className="logoicon" src={logo} alt="Logo" /></a>
       </div>
-
       <div className="second-width">
         <ul>
           <li>< a target="_blank" href="https://www.facebook.com/tiendanaturistaomnivita/"><img src={facebook} className="social-icons" alt="Facebook Page" /></a></li>
@@ -25,7 +23,6 @@ export default function Navbar() {
           <li><a target="_blank" href="https://tiendanaturista-omnivita.mercadoshops.com.co/"><img src={cart} className="social-icons" alt="Shopping Cart" /></a></li>
         </ul>
       </div>
-
     </div>
   )
 }
