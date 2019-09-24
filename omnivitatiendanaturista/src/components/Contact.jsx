@@ -7,7 +7,7 @@ import Envelope from '../assets/img/envelope.png';
 
 export default function contacto() {
   return (
-    <div className="contact">
+    <div id="contacto" className="contact">
       <h1>Contacto</h1>
 
       <div className="content-wrapper">

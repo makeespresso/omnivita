@@ -4,7 +4,7 @@ import Heroimages from '../assets/img/vitamins-2.jpeg';
 
 export default function MainHeader() {
   return (
-    <div className="main-container">
+    <div id="home" className="main-container">
       <div className="hero-image-container">
         {/* <img className="hero-image" src={Heroimage} alt="Omnivita" /> */}
         {/* <img className="hero-image" src="https://images.unsplash.com/photo-1548302966-a78e6d439912?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1651&q=80" /> */}

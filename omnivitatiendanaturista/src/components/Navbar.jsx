@@ -9,13 +9,13 @@ export default function Navbar() {
     <div className="nav-container">
       <div className="first-width">
         <ul>
-          <li><a id="about" href="#content">Sobre Nosotros</a></li>
-          <li><a id="contact" href="#contact-section">Contacto</a></li>
+          <li><a href="#sobreNosotros">Sobre Nosotros</a></li>
+          <li><a href="#contacto">Contacto</a></li>
         </ul>
       </div>
 
       <div className="helper-wrap">
-        <img className="logoicon" src={logo} alt="Logo" />
+        <a href="#home"><img className="logoicon" src={logo} alt="Logo" /></a>
       </div>
 
       <div className="second-width">
