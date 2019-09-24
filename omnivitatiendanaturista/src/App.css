@@ -6,7 +6,10 @@
   font-family: 'Playfair Display', serif;
 }
 
-/* NAVBAR - NAVBAR - NAVBAR - NAVBAR - NAVBAR */
+/* NAVBAR - NAVBAR - NAVBAR - NAVBAR - NAVBAR - NAVBAR */
+/* NAVBAR - NAVBAR - NAVBAR - NAVBAR - NAVBAR - NAVBAR */
+/* NAVBAR - NAVBAR - NAVBAR - NAVBAR - NAVBAR - NAVBAR */
+
 .nav-container{
   display: flex;
   height: 50px;
@@ -67,15 +70,19 @@ justify-content: flex-end;
   padding-right: 10px;
 }
 
+/* MAINHEADER - MAINHEADER - MAINHEADER - MAINHEADER - MAINHEADER - MAINHEADER */
+/* MAINHEADER - MAINHEADER - MAINHEADER - MAINHEADER - MAINHEADER - MAINHEADER */
+/* MAINHEADER - MAINHEADER - MAINHEADER - MAINHEADER - MAINHEADER - MAINHEADER */
 
-/* MAINHEADER - MAINHEADER - MAINHEADER - MAINHEADER - MAINHEADER - */
 .main-container{
   width: 90vw;
 }
+
 .hero-image-container{
   width: 90vw;
   height: 80vh;
 }
+
 .hero-image{
   object-fit: cover;
   width: 100%;
@@ -88,7 +95,6 @@ justify-content: flex-end;
   background-color: rgba(6, 96, 58, 100);
   display: flex;
   align-items: center;
-  
 }
 
 .banner p {
@@ -100,7 +106,9 @@ justify-content: flex-end;
   font-size:1.5rem;
 }
 
-/*CONTENT - CONTENT - CONTENT - CONTENT - CONTENT - CONTENT - */
+/* CONTENT - CONTENT - CONTENT - CONTENT - CONTENT - CONTENT */
+/* CONTENT - CONTENT - CONTENT - CONTENT - CONTENT - CONTENT */
+/* CONTENT - CONTENT - CONTENT - CONTENT - CONTENT - CONTENT */
 
 .content{ 
   width: 90vw;
@@ -112,15 +120,15 @@ justify-content: flex-end;
   justify-content: center;
   margin-bottom: 5%;
 }
+
 .cell{
   margin: auto;
   height: 46vh;
   width: 35vw;
-  /* justify-content: center; */
 }
+
 .cell p {
   color: #000000;
-  /* line-height: 2; */
   font-size: 1.3rem;
   text-align: center;
   padding: 2rem;
@@ -131,8 +139,6 @@ justify-content: flex-end;
   width: 100%;
   object-fit: fill;
   margin-top: 5%;
-  /* margin: auto; */
-  
 }
 
 .cell-1 {
@@ -151,16 +157,13 @@ justify-content: flex-end;
 
 .cell-1 span{
   color: rgba(6, 96, 58, 100);
-  /* font-weight: 800; */
   font-size: 3rem;
 }
 
-/* PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO */
-/* .productsInfoPage{
-  height: 82vh;
-  width: 90vw;
-  background: #000000;
-} */
+/* PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO */
+/* PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO */
+/* PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO */
+
 .products-info{
   background: rgba(237, 235, 235, 100);
   height: 75vh;
@@ -183,7 +186,6 @@ background: #ffffff;
 .products-image{
   height: 50vh;
   width: 20vw; 
-
 }
 
 .fourth-width p {
@@ -195,6 +197,9 @@ background: #ffffff;
 }
 
 /* CONTACT - CONTACT - CONTACT - CONTACT - CONTACT - CONTACT */
+/* CONTACT - CONTACT - CONTACT - CONTACT - CONTACT - CONTACT */
+/* CONTACT - CONTACT - CONTACT - CONTACT - CONTACT - CONTACT */
+
 .contact{
 height: 70vh;
 width: 90vw;
@@ -243,8 +248,10 @@ height: 45vh;
   color:rgba(6, 96, 58, 100);
 }
 
+/* FOOTER - FOOTER - FOOTER - FOOTER - FOOTER - FOOTER */
+/* FOOTER - FOOTER - FOOTER - FOOTER - FOOTER - FOOTER */
+/* FOOTER - FOOTER - FOOTER - FOOTER - FOOTER - FOOTER */
 
-/* FOOTER - FOOTER - FOOTER - FOOTER - FOOTER - FOOTER - */
 .footer{
   background: rgba(6, 96, 58, 100);
   height: 10vh;
