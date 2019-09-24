@@ -9,12 +9,10 @@ export default function contacto() {
   return (
     <div id="contacto" className="contact">
       <h1>Contacto</h1>
-
       <div className="content-wrapper">
         <div className="third-width">
           <a target="_blank" href="https://goo.gl/maps/74sJQPLX74Q2a3Ng8"><img className="location-map" src={Location} alt="Mapa" /></a>
         </div>
-
         <div className="third-width">
           <div className="contact-helper">
             <p>Encuéntranos al interior de</p>
@@ -27,7 +25,6 @@ export default function contacto() {
             <p><img className="contact-icon" src={PhoneIcon} alt="Teléfono" />+57 312 8140509</p>
           </div>
         </div>
-
         <div className="third-width">
           <div className="contact-helper">
             <h3>Horario de Atención</h3>
