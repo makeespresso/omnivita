@@ -1,5 +1,6 @@
 import React from 'react'
-import Heroimages from '../assets/img/vitamins-2.jpeg';
+import Heroimages from '../assets/img/coverimage.jpeg';
+
 
 export default function MainHeader() {
   return (

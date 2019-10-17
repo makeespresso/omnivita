@@ -121,6 +121,7 @@ justify-content: flex-end;
   grid-gap: 10px 10px; 
   justify-content: center;
   margin-bottom: 5%;
+  /* background-image: url("/Users/anabenedict/Documents/omnivita/omnivitatiendanaturista/src/assets/img/backgroundImage.jpeg"); */
 }
 
 .cell{
@@ -272,9 +273,9 @@ height: 45vh;
 /* MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - */
 /* MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - */
 /* MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - */
-@media only screen
+/* @media only screen
 and (min-width : 320px)
-and (max-width : 480px) {
+and (max-width : 480px) { */
 
 /* .banner p{
   font-size: 1rem;
