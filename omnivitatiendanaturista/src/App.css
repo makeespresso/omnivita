@@ -121,8 +121,8 @@ justify-content: flex-end;
   grid-gap: 10px 10px; 
   justify-content: center;
   margin-bottom: 5%;
-  /* background-image: url("/Users/anabenedict/Documents/omnivita/omnivitatiendanaturista/src/assets/img/backgroundImage.jpeg"); */
-}
+background-image: url("/Users/anabenedict/Documents/omnivita/omnivitatiendanaturista/src/assets/img/backgroundImage.jpeg");
+} 
 
 .cell{
   margin: auto;
@@ -197,7 +197,7 @@ background: #ffffff;
 
 .content-image{
   object-fit: fill;
-}
+} */
 
 /* CONTACT - CONTACT - CONTACT - CONTACT - CONTACT - CONTACT */
 /* CONTACT - CONTACT - CONTACT - CONTACT - CONTACT - CONTACT */
