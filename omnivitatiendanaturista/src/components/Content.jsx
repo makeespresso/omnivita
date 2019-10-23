@@ -10,6 +10,10 @@ export default function Content() {
       <div className="content-background">
         <img className="back-image" src={backgroundimage} alt="img" />
       </div>
+
+      <div className="content-text">
+        <p>Test text</p>
+      </div>
     </div>
   )
 }
