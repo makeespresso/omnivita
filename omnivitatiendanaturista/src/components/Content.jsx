@@ -12,8 +12,9 @@ export default function Content() {
       </div>
 
       <div className="content-text">
-        <p>Test text</p>
+        <p>something</p>
       </div>
+
     </div>
   )
 }

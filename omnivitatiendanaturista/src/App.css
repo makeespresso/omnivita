@@ -126,13 +126,16 @@ justify-content: flex-end;
 }
 
 .content-text{
-  height: 20vh;
-  width: 30vw;
+  height: 40px;
+  width:  300px;
   background: red;
   float: right;
   margin-top: -100px;
   position: absolute;
   z-index: 1;
+}
+.content-text p {
+  font-size: 16px;
 }
     /* left: 0px;
     top: 0px;
@@ -225,7 +228,7 @@ background: #ffffff;
 
 .content-image{
   object-fit: fill;
-} */
+} 
 
 /* CONTACT - CONTACT - CONTACT - CONTACT - CONTACT - CONTACT */
 /* CONTACT - CONTACT - CONTACT - CONTACT - CONTACT - CONTACT */
