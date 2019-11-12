@@ -116,7 +116,7 @@ justify-content: flex-end;
   width: 90vw;
   height: 95vh;
   background-color: purple;
-  
+  margin-bottom: 6vh;
 }
 
 .back-image{
@@ -137,9 +137,9 @@ justify-content: flex-end;
 .content-text p {
   font-size: 16px;
 }
+
     /* left: 0px;
     top: 0px;
-
 }
 
 
@@ -197,7 +197,11 @@ background-image: url("/Users/anabenedict/Documents/omnivita/omnivitatiendanatur
 /* PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO */
 /* PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO */
 /* PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO */
-
+.productsInfoPage{
+  width: 90vw;
+  height: 80vh;
+background: #06603A;
+}
 .products-info{
   background: rgba(237, 235, 235, 100);
   height: 75vh;
@@ -208,6 +212,12 @@ background-image: url("/Users/anabenedict/Documents/omnivita/omnivitatiendanatur
   margin: 0 auto;
   align-content: center;  
   margin-bottom: 3em;
+}
+
+.greenbottomline{
+  width: 100%;
+  height: 40px;
+  color: #06603A;
 }
 
 .fourth-width{
