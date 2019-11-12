@@ -13,7 +13,7 @@ function App() {
       <header className="App-header">
         <Navbar />
         <MainHeader />
-        {/* <Content /> */}
+        <Content />
         <ProductsInfo />
         <Contact />
         <Footer />

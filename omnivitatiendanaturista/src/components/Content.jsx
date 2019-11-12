@@ -1,8 +1,7 @@
 import React from 'react';
-import productsImage from '../assets/img/productsImage.jpeg';
-// import vitaminPills from '../assets/img/vitamin-pills.jpeg';
-import productImage2 from '../assets/img/syrup.jpg';
-import backgroundimage from '../assets/img/backgroundImage.jpeg';
+
+import backgroundimage from '../assets/img/greenPils.png';
+// import backgroundimage from '../assets/img/backgroundImage.jpeg';
 
 export default function Content() {
   return (
