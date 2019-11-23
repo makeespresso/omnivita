@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* NAVBAR - NAVBAR - NAVBAR - NAVBAR - NAVBAR - NAVBAR */
@@ -18,7 +18,7 @@
 }
 
 li{
-  font-weight: 900;
+  /* font-weight: 900; */
   list-style: none;
 }
 
@@ -29,10 +29,10 @@ a {
 
 .first-width{
   background: #ffffff;
-  margin-left: 0px; 
   width: 33.5%; 
   height: 50px;
   font-size: 1rem;
+  font-family: 'Playfair Display', serif;
 }
 .first-width ul {
   display: flex;
@@ -115,9 +115,9 @@ justify-content: flex-end;
 .content{
   width: 90vw;
   height: 95vh;
-  background-color: purple;
   margin-bottom: 6vh;
 }
+
 
 .back-image{
   object-fit: cover;
@@ -126,16 +126,21 @@ justify-content: flex-end;
 }
 
 .content-text{
-  height: 40px;
-  width:  300px;
-  background: red;
+  height: 400px;
+  width:  400px;
+  margin-top: -540px;
+  margin-right: 150px;
+  position: relative;
   float: right;
-  margin-top: -100px;
-  position: absolute;
   z-index: 1;
 }
 .content-text p {
-  font-size: 16px;
+  line-height:2rem;
+  font-size: 1.3em;
+  text-align: center;
+}
+.content-text h1{
+color: rgba(6, 96, 58, 100);
 }
 
     /* left: 0px;
@@ -203,7 +208,8 @@ background-image: url("/Users/anabenedict/Documents/omnivita/omnivitatiendanatur
 background: #06603A;
 }
 .products-info{
-  background: rgba(237, 235, 235, 100);
+  /* background: rgba(237, 235, 235, 100); */
+  background-color: #F5F6F0;
   height: 75vh;
   width: 90vw;
   display: flex;
@@ -222,6 +228,7 @@ background: #06603A;
 
 .fourth-width{
 background: #ffffff;
+border-radius: 4px;
   margin-top: 4.5%;
   width: 20vw; 
   height: 58vh;
@@ -297,12 +304,18 @@ height: 45vh;
 /* FOOTER - FOOTER - FOOTER - FOOTER - FOOTER - FOOTER */
 
 .footer{
-  background: rgba(6, 96, 58, 100);
-  height: 10vh;
   width: 90vw;
+  height: 25px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+}
+
+.div-container{
+  background: rgba(6, 96, 58, 100);
+  display: inline;
+  text-align: center;
+  width: 90vw;
+  height: 10vh;
+  /* margin-bottom: 25vh; */
 }
 
 .footer-icons{

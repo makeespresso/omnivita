@@ -2,7 +2,7 @@ import React from 'react';
 import logo from '../assets/img/logo.png';
 import facebook from '../assets/img/facebook.png';
 import instagram from '../assets/img/instagram.png';
-import cart from '../assets/img/cart.png';
+import cart from '../assets/img/cart.svg';
 
 export default function Navbar() {
   return (
