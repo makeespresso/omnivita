@@ -3,7 +3,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif; 
+  background-color: #F5F6F0;
 }
 
 /* NAVBAR - NAVBAR - NAVBAR - NAVBAR - NAVBAR - NAVBAR */
@@ -30,10 +31,12 @@ a {
 .first-width{
   background: #ffffff;
   width: 33.5%; 
+  min-width: 254.86px;
   height: 50px;
   font-size: 1rem;
   font-family: 'Playfair Display', serif;
 }
+
 .first-width ul {
   display: flex;
   justify-content: flex-start;
@@ -42,6 +45,7 @@ a {
 .first-width ul li{
 margin-right: 20px;
 }
+
 .helper-wrap{
   width: 33.3%;
   height: 50px;
@@ -52,13 +56,12 @@ margin-right: 20px;
   margin-left: auto;
   margin-right: auto;
   display: block;
-
 }
+
 .second-width{
   background: #ffffff;
   width: 33.4%; 
   height: 50px;
-
 }
 
 .second-width ul{
@@ -93,7 +96,7 @@ justify-content: flex-end;
 
 .banner{
   width: 90vw;
-  height: 25vh;
+  height: 20vh;
   background-color: rgba(6, 96, 58, 100);
   display: flex;
   align-items: center;
@@ -106,6 +109,7 @@ justify-content: flex-end;
   padding: 5px;
   margin: 0 auto;
   font-size:1.5rem;
+  font-family: 'Playfair Display', serif;
 }
 
 /* CONTENT - CONTENT - CONTENT - CONTENT - CONTENT - CONTENT */
@@ -117,7 +121,6 @@ justify-content: flex-end;
   height: 95vh;
   margin-bottom: 6vh;
 }
-
 
 .back-image{
   object-fit: cover;
@@ -134,70 +137,17 @@ justify-content: flex-end;
   float: right;
   z-index: 1;
 }
+
 .content-text p {
   line-height:2rem;
   font-size: 1.3em;
   text-align: center;
 }
+
 .content-text h1{
 color: rgba(6, 96, 58, 100);
+font-family: 'Playfair Display', serif;
 }
-
-    /* left: 0px;
-    top: 0px;
-}
-
-
-/* .content{ 
-  width: 90vw;
-  height: 100vh;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-gap: 10px 10px; 
-  justify-content: center;
-  margin-bottom: 5%;
-background-image: url("/Users/anabenedict/Documents/omnivita/omnivitatiendanaturista/src/assets/img/backgroundImage.jpeg");
-} 
-
-.cell{
-  margin: auto;
-  height: 46vh;
-  width: 35vw;
-}
-
-.cell p {
-  color: #000000;
-  font-size: 1.3rem;
-  text-align: center;
-  padding: 2rem;
-}
-
-.content-image{ 
-  height: 100%;
-  width: 100%;
-  object-fit: fill;
-  margin-top: 5%;
-}
-
-.cell-1 {
-  margin-right: 1%;
-}
-.cell-2 {
-  margin-left: 1%;
-}
-.cell-3 {
-  margin-right: 1%;
-}
-.cell-4 {
-  margin-left: 1%;
-  margin-top: 10%;
-}
-
-.cell-1 span{
-  color: rgba(6, 96, 58, 100);
-  font-size: 3rem;
-} */
 
 /* PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO */
 /* PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO */
@@ -205,8 +155,9 @@ background-image: url("/Users/anabenedict/Documents/omnivita/omnivitatiendanatur
 .productsInfoPage{
   width: 90vw;
   height: 80vh;
-background: #06603A;
+  background: #06603A;
 }
+
 .products-info{
   /* background: rgba(237, 235, 235, 100); */
   background-color: #F5F6F0;
@@ -220,15 +171,9 @@ background: #06603A;
   margin-bottom: 3em;
 }
 
-.greenbottomline{
-  width: 100%;
-  height: 40px;
-  color: #06603A;
-}
-
 .fourth-width{
-background: #ffffff;
-border-radius: 4px;
+  background: #ffffff;
+  border-radius: 4px;
   margin-top: 4.5%;
   width: 20vw; 
   height: 58vh;
@@ -255,9 +200,13 @@ border-radius: 4px;
 height: 70vh;
 width: 90vw;
 }
+
 .contact h1{
 text-align: center;
+font-family: 'Playfair Display', serif;
+
 }
+
 .content-wrapper{
   height: 60vh;
   width:100%;
@@ -302,10 +251,9 @@ height: 45vh;
 /* FOOTER - FOOTER - FOOTER - FOOTER - FOOTER - FOOTER */
 /* FOOTER - FOOTER - FOOTER - FOOTER - FOOTER - FOOTER */
 /* FOOTER - FOOTER - FOOTER - FOOTER - FOOTER - FOOTER */
-
 .footer{
   width: 90vw;
-  height: 25px;
+  height: 30px;
   display: flex;
 }
 
@@ -314,8 +262,7 @@ height: 45vh;
   display: inline;
   text-align: center;
   width: 90vw;
-  height: 10vh;
-  /* margin-bottom: 25vh; */
+  height: 13vh;
 }
 
 .footer-icons{
@@ -327,16 +274,6 @@ height: 45vh;
 /* MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - */
 /* MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - */
 /* MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - */
-/* @media only screen
-and (min-width : 320px)
-and (max-width : 480px) { */
-
-/* .banner p{
-  font-size: 1rem;
-}
-} */
-
-
 
 
 
