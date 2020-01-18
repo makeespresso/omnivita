@@ -6,7 +6,9 @@ import backgroundimage from '../assets/img/greenPils.png';
 export default function Content() {
   return (
     <div id="sobreNosotros" className="content">
-      <img className="back-image" src={backgroundimage} alt="img" />
+      <div>
+        <img className="back-image" src={backgroundimage} alt="img" />
+      </div>
       <div className="content-text">
         <h1>OmniVita Tienda Naturista</h1>
         <p>Dedicada a la venta al por menor de productos de la salud, nutrición y belleza. Incluyendo vitaminas, suplementos minerales, hierbas, nutrición deportiva, dietéticos, productos energéticos y de belleza.</p>
@@ -15,11 +17,6 @@ export default function Content() {
     </div>
   )
 }
-
-
-
-
-
 
 
 
