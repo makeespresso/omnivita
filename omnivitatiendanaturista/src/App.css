@@ -133,37 +133,51 @@
   /* CONTENT - CONTENT - CONTENT - CONTENT - CONTENT - CONTENT */
 
   .content {
-    /* width: 90vw;
+    width: 90vw;
     height: 90vh;
-    margin-bottom: 6vh;
-    background-color: gray; */
+    display: flex;
+  }
+
+  .background-image-content {
+    width: 100%;
+    height: 100%;
   }
 
   .back-image {
-    /* object-fit: cover;
+    object-fit: cover;
     width: 100%;
-    height: 100%; */
+    height: 100%;
   }
 
   .content-text {
-    /* height: 400px;
-    width: 400px;
-    margin-top: -540px;
-    margin-right: 150px;
-    float: right;
-    background-color: blue; */
+    height: 100%;
+    width: 100%;
+    min-width: 250px;
+    background-color: lightsalmon;
   }
 
+  @media screen and (max-width: 767px) {
+    .content-text {
+      width: 100%
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .back-image {
+      width: 100%
+    }
+  }
+
+  
+
   .content-text p {
-    /* font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
-    line-height: 2rem;
     text-align: center;
-    font-family: 'Montserrat', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
   }
 
   .content-text h1 {
-    /* color: rgba(6, 96, 58, 100);
-    font-family: 'Ibarra Real Nova', serif; */
+    color: rgba(6, 96, 58, 100);
+    font-family: 'Ibarra Real Nova', serif;
   }
 
   /* PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO */
