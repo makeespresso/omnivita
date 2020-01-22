@@ -134,7 +134,7 @@
 
   .content {
     width: 90vw;
-    height: 90vh;
+    height: 60vh;
     display: flex;
   }
 
@@ -154,6 +154,22 @@
     width: 100%;
     min-width: 250px;
     background-color: lightsalmon;
+    display: block;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 1em;
+  }
+
+  .content-text h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .content-text p {
+    margin-left: 2em;
+    margin-right: 3em;
   }
 
   @media screen and (max-width: 767px) {
@@ -168,9 +184,15 @@
     }
   }
 
+  .content-text {
+    min-width: 250px;
+  }
+
   .content-text p {
+    font-size: calc(16px + 4 * ((100vw - 320px) / 680));
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+    min-height: fit-content;
   }
 
   .content-text h1 {
