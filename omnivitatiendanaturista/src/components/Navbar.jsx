@@ -4,8 +4,6 @@ import facebook from '../assets/img/facebook.png';
 import instagram from '../assets/img/instagram.png';
 import cart from '../assets/img/cart.svg';
 
-
-
 export default function Navbar() {
   return (
     <div id="Navbar-1">

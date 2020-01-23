@@ -96,7 +96,6 @@
     width: 90vw;
     height: 20vh;
     background-color: rgba(6, 96, 58, 100);
-    /* background-color: rgb(32, 52, 43); */
     display: flex;
     align-items: center;
   }
@@ -104,11 +103,8 @@
   .banner p {
     color: white;
     text-align: center;
-    /* padding: 5px; */
     margin: 0 auto;
-    /* font-size: calc(12px + 1.5vw); */
     font-size: calc(16px + 6 * ((100vw - 320px) / 680));
-    /* font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300))); */
     font-family: 'Ibarra Real Nova', serif;
   }
 
@@ -318,9 +314,36 @@
     padding-right: 10px;
   }
 
-  /* MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - */
+  /* CAROUSEL - CAROUSEL - CAROUSEL - CAROUSEL - CAROUSEL - CAROUSEL - CAROUSEL - CAROUSEL -  */
+
+  /* CAROUSEL - CAROUSEL - CAROUSEL - CAROUSEL - CAROUSEL - CAROUSEL - CAROUSEL - CAROUSEL -  */
+
+  /* CAROUSEL - CAROUSEL - CAROUSEL - CAROUSEL - CAROUSEL - CAROUSEL - CAROUSEL - CAROUSEL -  */
+
+  .tester {
+    width: 90vw;
+    height: 100vh;
+    margin: 0 auto;
+  }
+
+  .tester img {
+    width: 100%;
+  }
+
+  .carouselImg {
+    object-fit: cover;
+    width: 90vw;
+    height: 80vh;
+  }
+
+  .backtext {
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 5em;
+    color: black;
+  }
 
   /* MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - */
 
   /* MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - */
 
+  /* MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - */

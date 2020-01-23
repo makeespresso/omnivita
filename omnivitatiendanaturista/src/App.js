@@ -7,14 +7,17 @@ import ProductsInfo from './components/ProductsInfo';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Carousel from './components/Carousel';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <Navbar />
+        <Carousel />
         {/* <MainHeader /> */}
-        {/* <Content /> */}
+        <Content />
+
         {/* <ProductsInfo /> */}
         {/* <Contact /> */}
         {/* <Footer /> */}
@@ -24,3 +27,5 @@ function App() {
 }
 
 export default App;
+
+
