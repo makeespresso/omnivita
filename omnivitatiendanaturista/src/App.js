@@ -6,17 +6,18 @@ import Content from './components/Content';
 import ProductsInfo from './components/ProductsInfo';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <Navbar />
-        <MainHeader />
-        <Content />
-        {/* <ProductsInfo />
-        <Contact />
-        <Footer /> */}
+        {/* <MainHeader /> */}
+        {/* <Content /> */}
+        {/* <ProductsInfo /> */}
+        {/* <Contact /> */}
+        {/* <Footer /> */}
       </header>
     </div>
   );

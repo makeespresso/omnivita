@@ -14,73 +14,57 @@
 
   /* NAVBAR - NAVBAR - NAVBAR - NAVBAR - NAVBAR - NAVBAR */
 
-  .nav-container {
+  /* .nav-container {
     display: flex;
     height: 50px;
     width: 90vw;
     position: fixed;
     background-color: #F5F6F0;
-  }
+  } */
 
-  li {
-    /* font-weight: 900; */
-    list-style: none;
-  }
-
-  a {
-    text-decoration: none;
-    color: #000000;
-  }
-
-  .first-width {
+  /* .first-width {
     width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
     font-size: calc(10px + 1.5vmin);
-  }
+  } */
 
-  .first-width ul {
+  /* .first-width ul {
     display: flex;
     justify-content: flex-start;
-  }
+  } */
 
-  .first-width ul li {
+  /* .first-width ul li {
     margin-right: 20px;
-  }
+  } */
 
-  .helper-wrap {
+  /* .helper-wrap {
     width: 33.3%;
     min-width: 33.5%;
     max-width: 33.5%;
     height: 50px;
     background-color: #ffffff;
-  }
+  } */
 
-  .logoicon {
+  /* .logoicon {
     margin-left: auto;
     margin-right: auto;
     display: block;
-  }
+  } */
 
-  .second-width {
+  /* .second-width {
     background: #ffffff;
     width: 33.4%;
     min-width: 33.5%;
     max-width: 33.5%;
     height: 50px;
-  }
+  } */
 
-  .second-width ul {
+  /* .second-width ul {
     display: flex;
     justify-content: flex-end;
-  }
-
-  .social-icons {
-    width: 25px;
-    height: 25px;
-    padding-right: 10px;
-  }
+  } */
 
   /* MAINHEADER - MAINHEADER - MAINHEADER - MAINHEADER - MAINHEADER - MAINHEADER */
 
@@ -335,3 +319,59 @@
   /* MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - */
 
   /* MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - */
+
+  /* new nav bar */
+
+  /* #Navbar-1 {
+    height: 3.4375rem;
+    background-color: gray;
+    display: flex;
+    width: 90vw;
+    flex-direction: column;
+    align-items: center;
+    font-size: calc(10px + 1.5vmin);
+  } */
+
+  .Navbar {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  #Navbar-1 {
+    /* justify-content: space-around; */
+    height: 3.4375rem;
+    width: 90vw;
+    background-color: red;
+    /* display: flex; */
+  }
+
+  ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    font-size: calc(10px + 1.5vmin);
+  }
+
+  li {
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  .social-icons {
+    width: 42px;
+    height: 30px;
+    padding-right: 10px;
+  }
+
+  .third-div {
+    width: 100%;
+    height: 3.5rem;
+    background-color: salmon;
+    display: flex;
+    justify-content: flex-end;
+  }
