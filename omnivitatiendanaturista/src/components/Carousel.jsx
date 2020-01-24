@@ -2,15 +2,11 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import Heroimages from '../assets/img/coverimage.jpeg';
 
-
 function PicCarousel() {
   return (
-
     <div className="tester">
       < Carousel >
         <Carousel.Item>
-          {/* <img className="carouselImg" src="https://images.unsplash.com/photo-1555633514-abcee6ab92e1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80
-" /> */}
           <img className="carouselImg" src={Heroimages} alt="Omnivita" />
           <Carousel.Caption>
             <section className="backtext">
@@ -44,6 +40,5 @@ function PicCarousel() {
     </div>
   )
 }
-
 
 export default PicCarousel;

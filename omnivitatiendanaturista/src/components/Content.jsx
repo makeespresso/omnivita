@@ -1,12 +1,10 @@
 import React from 'react';
-
-// import backgroundimage from '../assets/img/greenPils.png';
 import backgroundimage from '../assets/img/probiotics.jpeg';
 
 export default function Content() {
   return (
     <div id="sobreNosotros" className="content">
-      <div className="background-image-content">
+      <div className="image-content">
         <img className="back-image" src={backgroundimage} alt="img" />
       </div>
       <div className="content-text">

@@ -15,7 +15,7 @@ function App() {
         <Navbar />
         <Carousel />
         <Content />
-        {/* <ProductsInfo /> */}
+        <ProductsInfo />
         {/* <Contact /> */}
         {/* <Footer /> */}
       </header>

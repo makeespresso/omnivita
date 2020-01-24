@@ -3,8 +3,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-family: 'Vidaloka', serif;
-    background-color: rgba(243, 242, 242);
+    /* font-family: 'Vidaloka', serif; */
+    /* background-color: rgba(243, 242, 242); */
   }
 
   /* NAVBAR - NAVBAR - NAVBAR - NAVBAR - NAVBAR - NAVBAR */
@@ -16,6 +16,7 @@
   #Navbar-1 {
     height: 3.4375rem;
     width: 90vw;
+    background-color: #ffffff;
   }
 
   ul {
@@ -70,26 +71,32 @@
     height: auto;
   }
 
-  /* MAINHEADER - MAINHEADER - MAINHEADER - MAINHEADER - MAINHEADER - MAINHEADER */
+  /* CAROUSEL - CAROUSEL - CAROUSEL - CAROUSEL - CAROUSEL - CAROUSEL - CAROUSEL - CAROUSEL -  */
 
-  /* MAINHEADER - MAINHEADER - MAINHEADER - MAINHEADER - MAINHEADER - MAINHEADER */
+  /* CAROUSEL - CAROUSEL - CAROUSEL - CAROUSEL - CAROUSEL - CAROUSEL - CAROUSEL - CAROUSEL -  */
 
-  /* MAINHEADER - MAINHEADER - MAINHEADER - MAINHEADER - MAINHEADER - MAINHEADER */
+  /* CAROUSEL - CAROUSEL - CAROUSEL - CAROUSEL - CAROUSEL - CAROUSEL - CAROUSEL - CAROUSEL -  */
 
-  .main-container {
+  .tester {
     width: 90vw;
     height: 100vh;
+    margin: 0 auto;
   }
 
-  .hero-image-container {
+  .tester img {
+    width: 100%;
+  }
+
+  .carouselImg {
+    object-fit: cover;
     width: 90vw;
     height: 80vh;
   }
 
-  .hero-image {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
+  .backtext {
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 5em;
+    color: black;
   }
 
   .banner {
@@ -118,10 +125,12 @@
     width: 90vw;
     height: 60vh;
     display: flex;
+    flex-flow: flex wrap;
+    justify-content: center;
   }
 
-  .background-image-content {
-    width: 100%;
+  .image-content {
+    width: 45vw;
     height: 100%;
   }
 
@@ -132,54 +141,16 @@
   }
 
   .content-text {
+    margin: 3em;
+    width: 45vw;
     height: 100%;
-    width: 100%;
-    min-width: 250px;
-    background-color: lightsalmon;
-    display: block;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-size: 1em;
-  }
-
-  .content-text h1 {
-    font-size: 2.5em;
     text-align: center;
-    margin-top: 3rem;
-    margin-bottom: 1rem;
-  }
-
-  .content-text p {
-    margin-left: 2em;
-    margin-right: 3em;
-  }
-
-  @media screen and (max-width: 767px) {
-    .content-text {
-      width: 100%
-    }
-  }
-
-  @media screen and (max-width: 767px) {
-    .back-image {
-      width: 100%
-    }
-  }
-
-  .content-text {
-    min-width: 250px;
-  }
-
-  .content-text p {
-    font-size: calc(16px + 4 * ((100vw - 320px) / 680));
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    min-height: fit-content;
+    justify-content: center;
+    font-size: calc(12px + 6 * ((100vw - 320px) / 680));
   }
 
   .content-text h1 {
     color: rgba(6, 96, 58, 100);
-    font-family: 'Ibarra Real Nova', serif;
   }
 
   /* PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO - PRODUCTSINFO */
@@ -312,34 +283,6 @@
     width: 25px;
     height: 25px;
     padding-right: 10px;
-  }
-
-  /* CAROUSEL - CAROUSEL - CAROUSEL - CAROUSEL - CAROUSEL - CAROUSEL - CAROUSEL - CAROUSEL -  */
-
-  /* CAROUSEL - CAROUSEL - CAROUSEL - CAROUSEL - CAROUSEL - CAROUSEL - CAROUSEL - CAROUSEL -  */
-
-  /* CAROUSEL - CAROUSEL - CAROUSEL - CAROUSEL - CAROUSEL - CAROUSEL - CAROUSEL - CAROUSEL -  */
-
-  .tester {
-    width: 90vw;
-    height: 100vh;
-    margin: 0 auto;
-  }
-
-  .tester img {
-    width: 100%;
-  }
-
-  .carouselImg {
-    object-fit: cover;
-    width: 90vw;
-    height: 80vh;
-  }
-
-  .backtext {
-    background-color: rgba(255, 255, 255, 0.8);
-    height: 5em;
-    color: black;
   }
 
   /* MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - MEDIA QUERIES - */
