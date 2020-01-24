@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
-import MainHeader from './components/MainHeader';
 import Content from './components/Content';
 import ProductsInfo from './components/ProductsInfo';
 import Contact from './components/Contact';
@@ -15,9 +14,7 @@ function App() {
       <header className="App-header">
         <Navbar />
         <Carousel />
-        {/* <MainHeader /> */}
         <Content />
-
         {/* <ProductsInfo /> */}
         {/* <Contact /> */}
         {/* <Footer /> */}

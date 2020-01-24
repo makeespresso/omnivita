@@ -1,5 +1,7 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
+import Heroimages from '../assets/img/coverimage.jpeg';
+
 
 function PicCarousel() {
   return (
@@ -7,7 +9,9 @@ function PicCarousel() {
     <div className="tester">
       < Carousel >
         <Carousel.Item>
-          <img className="carouselImg" src="https://images.unsplash.com/photo-1566346289754-2286d8d29fdb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80" />
+          {/* <img className="carouselImg" src="https://images.unsplash.com/photo-1555633514-abcee6ab92e1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80
+" /> */}
+          <img className="carouselImg" src={Heroimages} alt="Omnivita" />
           <Carousel.Caption>
             <section className="backtext">
               <h4>Omnivita Tienda Naturista</h4>
@@ -16,17 +20,21 @@ function PicCarousel() {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="carouselImg" src="https://images.unsplash.com/photo-1564594326930-17381130fd2e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" />
+          <img className="carouselImg" src="https://images.unsplash.com/photo-1579722820308-d74e571900a9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" />
           <Carousel.Caption>
-            {/* <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
+            <section className="backtext">
+              <h4>Omnivita Tienda Naturista</h4>
+              <p>Productos Naturales</p>
+            </section>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img className="carouselImg" src="https://images.unsplash.com/photo-1535585209827-a15fcdbc4c2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" />
           <Carousel.Caption>
-            {/* <h3>Third slide label</h3>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
+            <section className="backtext">
+              <h4>Omnivita Tienda Naturista</h4>
+              <p>Productos Naturales</p>
+            </section>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel >
@@ -36,5 +44,6 @@ function PicCarousel() {
     </div>
   )
 }
+
 
 export default PicCarousel;
