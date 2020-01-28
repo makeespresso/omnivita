@@ -141,7 +141,6 @@
   }
 
   .content-text {
-    margin: 3em;
     width: 45vw;
     height: 100%;
     text-align: center;
@@ -161,46 +160,50 @@
 
   .productsInfoPage {
     width: 90vw;
-    height: 80vh;
+    height: 90vh;
     background-color: rgb(32, 52, 43);
   }
 
   .products-info {
-    /* background: rgba(237, 235, 235, 100); */
+    height: 60vh;
+    width: 100%;
     background-color: #F5F6F0;
-    height: 75vh;
-    width: 90vw;
     display: flex;
     justify-content: space-around;
     text-align: center;
-    margin: 0 auto;
     align-content: center;
     margin-bottom: 3em;
-    font-family: 'Montserrat', sans-serif;
   }
 
   .fourth-width {
     background: #ffffff;
-    min-width: 235px;
+    width: 20vw;
     border-radius: 4px;
     margin-top: 4.5%;
-    width: 20vw;
-    height: 58vh;
+    object-fit: fill;
   }
 
   .products-image {
-    height: 50vh;
-    min-width: 235px;
-    width: 20vw;
+    height: 90%;
+    width: 100%;
   }
 
   .fourth-width p {
     text-align: center;
+    display: block;
+    font-size: calc(12px + 6 * ((100vw - 320px) / 680));
   }
+
+  /* 
+  
+
+ 
+
+
 
   .content-image {
     object-fit: fill;
-  }
+  } */
 
   /* CONTACT - CONTACT - CONTACT - CONTACT - CONTACT - CONTACT */
 
