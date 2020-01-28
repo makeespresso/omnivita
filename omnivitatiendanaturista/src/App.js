@@ -16,8 +16,8 @@ function App() {
         <Carousel />
         <Content />
         <ProductsInfo />
-        {/* <Contact /> */}
-        {/* <Footer /> */}
+        <Contact />
+        <Footer />
       </header>
     </div>
   );

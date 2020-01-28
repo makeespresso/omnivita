@@ -6,6 +6,7 @@ import SkinCare from '../assets/img/skinCare.png';
 
 export default function ProductsInfo() {
   return (
+
     <div className="productsInfoPage">
       <div className="products-info">
         <div className="fourth-width">

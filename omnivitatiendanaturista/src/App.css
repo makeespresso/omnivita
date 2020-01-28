@@ -81,6 +81,7 @@
     width: 90vw;
     height: 100vh;
     margin: 0 auto;
+    margin-bottom: 8rem;
   }
 
   .tester img {
@@ -127,6 +128,7 @@
     display: flex;
     flex-flow: flex wrap;
     justify-content: center;
+    margin-bottom: 8rem;
   }
 
   .image-content {
@@ -160,11 +162,16 @@
 
   .productsInfoPage {
     width: 90vw;
-    height: 90vh;
-    background-color: rgb(32, 52, 43);
+    height: 70vh;
+    /* background-color: rgba(6, 96, 58, 100); */
+    background-color: #F5F6F0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
   }
 
   .products-info {
+    justify-content: center;
     height: 60vh;
     width: 100%;
     background-color: #F5F6F0;
@@ -173,6 +180,7 @@
     text-align: center;
     align-content: center;
     margin-bottom: 3em;
+    display: flex;
   }
 
   .fourth-width {
@@ -190,20 +198,14 @@
 
   .fourth-width p {
     text-align: center;
+    align-content: center;
     display: block;
     font-size: calc(12px + 6 * ((100vw - 320px) / 680));
   }
 
-  /* 
-  
-
- 
-
-
-
   .content-image {
     object-fit: fill;
-  } */
+  }
 
   /* CONTACT - CONTACT - CONTACT - CONTACT - CONTACT - CONTACT */
 
@@ -218,7 +220,6 @@
 
   .contact h1 {
     text-align: left;
-    font-family: 'Playfair Display', serif;
   }
 
   .content-wrapper {
@@ -270,8 +271,9 @@
 
   .footer {
     width: 90vw;
-    height: 30px;
+    height: 25px;
     display: flex;
+    color: white;
   }
 
   .div-container {
