@@ -12,6 +12,7 @@ export default function contacto() {
 
       <div id="contacto" className="contact">
         <h1>Contacto</h1>
+        <br></br>
 
         <div className="map-width">
           <a className="map-style" target="_blank" href="https://goo.gl/maps/74sJQPLX74Q2a3Ng8"><img className="location-map" src={Location} alt="Mapa" /></a>

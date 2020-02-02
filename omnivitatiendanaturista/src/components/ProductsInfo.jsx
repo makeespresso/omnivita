@@ -8,6 +8,8 @@ export default function ProductsInfo() {
   return (
 
     <div className="productsInfoPage">
+      <h1>Nuestros Productos</h1>
+      <br></br>
       <div className="products-info">
         <div className="fourth-width">
           <img className="products-image" src={Proteins} alt="Proteinas" />

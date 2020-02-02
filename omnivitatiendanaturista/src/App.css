@@ -14,7 +14,7 @@
   /* NAVBAR - NAVBAR - NAVBAR - NAVBAR - NAVBAR - NAVBAR */
 
   #Navbar-1 {
-    height: 4rem;
+    height: 3em;
     width: 90vw;
     background-color: #F5F6F0;
     text-align: center;
@@ -24,7 +24,7 @@
 
   ul {
     display: flex;
-    font-size: calc(10px + 1.5vmin);
+    font-size: calc(10px + 1vmin);
   }
 
   li {
@@ -161,7 +161,7 @@
     /* font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300))); */
   }
 
-  .textwrap h1 {
+  h1 {
     font-family: 'Vidaloka', serif;
     color: rgba(6, 96, 58, 100);
   }
@@ -194,17 +194,17 @@
   .productsInfoPage {
     width: 90vw;
     height: 70vh;
-    background-color: #F5F6F0;
-    justify-content: center;
+    /* background-color: gray; */
+    /* justify-content: center;
     display: flex;
-    align-items: center;
+    align-items: center; */
   }
 
   .products-info {
     justify-content: center;
-    height: 60vh;
+    height: 80%;
     width: 100%;
-    background-color: #F5F6F0;
+    /* background-color: red; */
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -214,11 +214,9 @@
   }
 
   .fourth-width {
-    background: #ffffff;
-    width: 20vw;
-    border-radius: 4px;
-    margin-top: 4.5%;
-    object-fit: fill;
+    width: 22%;
+    height: 90%;
+    /* object-fit: scale-down; */
   }
 
   .products-image {
@@ -251,26 +249,9 @@
     justify-content: center; */
   }
 
-  a:link {
-    color: #000000;
-  }
-
-  a:hover {
-    text-decoration: none;
-    color: #000000;
-  }
-
-  a:active {
-    text-decoration: none;
-  }
-
   .contact {
     height: 100%;
     width: 90vw;
-  }
-
-  .contact h1 {
-    padding: 1em;
   }
 
   .map-width {
